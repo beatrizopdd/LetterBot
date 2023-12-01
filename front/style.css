@@ -29,6 +29,22 @@ header img {
 }
 /* fim */
 
+.subtitulo {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	
+	border-bottom: 1px solid #456;
+	padding-bottom: 5px;
+	
+	color: #9ab;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: .075em;
+}
+
 /* CONTAINER */
 section {
 	min-width: 450px;
@@ -40,67 +56,7 @@ section {
 	padding: 2% 0;
 }
 
-/* INDEX */
-.menuSuspenso {
-	width: 100%;
-	display: inline-block;
-	position: relative;
-	
-	border-bottom: 1px solid #456;
-	padding-bottom: 5px;
-	margin: 1.5% 0;
-}
-
-.menuBotao {
-	border: 0;
-	
-	background-color: transparent;
-	text-align: left;
-}
-
-.menuBotao, .subtitulo {
-	padding-bottom: 5px;
-	
-	color: #9ab;
-	font-weight: 400;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 1rem;
-	letter-spacing: .075em;
-}
- 
-.menuOpcoes {
-	display: none;
-	position: absolute;
-	z-index: 1;
-	
-	background-color: #8899AA;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.menuSuspenso:hover .menuBotao {
-	background-color: #8899AA;
-}
-
-.menuOpcoes a {
-	display: block;
-	color: #090B0D;
-	text-decoration: none;
-}
-
-.menuOpcoes a:hover {
-	background-color: #ddd;
-}
-
 /* PAGINA NORMAL */
-.subtitulo {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	
-	border-bottom: 1px solid #456;
-}
-
 form {
 	width: 100%;
 	display: flex;
@@ -182,7 +138,7 @@ input[type=submit] {
 	text-transform: uppercase;
 }
 
-p {
+a, p {
 	width: 94%;
 	
 	color: #9ab;
@@ -190,4 +146,9 @@ p {
 	text-decoration: none;
 	font-size: 1rem;
 	letter-spacing: .075em;
+}
+
+a:hover {
+	background-color: #fff;
+	color: #9ab;
 }
