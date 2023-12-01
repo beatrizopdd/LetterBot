@@ -1,4 +1,6 @@
-LetterBot\affinity\Affinity.class
-LetterBot\affinity\Main.class
-LetterBot\saveTheDate\SaveTheDate.class
-LetterBot\saveTheDate\Main.class
+Bot\match\Main.class
+Bot\affinity\Affinity.class
+Bot\match\Match.class
+Bot\saveTheDate\Main.class
+Bot\saveTheDate\SaveTheDate.class
+Bot\affinity\Main.class
